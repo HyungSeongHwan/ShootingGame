@@ -1,0 +1,11 @@
+﻿  Hero.cpp
+C:\Users\skill3\Desktop\Console-Shooting-Game-master\2018_06_12_02_State\console\Include.h(17,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+C:\Users\skill3\Desktop\Console-Shooting-Game-master\2018_06_12_02_State\console\Include.h(20,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+C:\Users\skill3\Desktop\Console-Shooting-Game-master\2018_06_12_02_State\console\Hero.cpp(53,68): warning C4244: '인수': 'DWORD'에서 'WORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\skill3\Desktop\Console-Shooting-Game-master\2018_06_12_02_State\console\Hero.cpp(53,53): warning C4244: '인수': 'DWORD'에서 'WORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  코드를 생성하고 있습니다.
+  4 of 33 functions (12.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  코드를 생성했습니다.
+  console.vcxproj -> C:\Users\skill3\Desktop\Console-Shooting-Game-master\2018_06_12_02_State\Release\console.exe

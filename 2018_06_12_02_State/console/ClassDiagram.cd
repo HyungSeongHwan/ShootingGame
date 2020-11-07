@@ -1,0 +1,375 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CUnit" Collapsed="true">
+    <Position X="21" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQwAAAAAggAAUgAAAAAAGABAQAAAAAAAAGAjAAgAAAA=</HashCode>
+      <FileName>Unit.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CFinishState" Collapsed="true">
+    <Position X="3" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAgAAAAAAAAQAIAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>FinishState.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGameState" Collapsed="true">
+    <Position X="5.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAVhGACBISUAEgFwUBUAEgZARAKsAcBBoAgKCQIhAAE=</HashCode>
+      <FileName>GameState.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CHeroPickState" Collapsed="true">
+    <Position X="7.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AB0gAAAQByAA0gIAAQAAACBAQAAAQEAEIOABAQAAEAA=</HashCode>
+      <FileName>HeroPickState.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLogoState">
+    <Position X="9.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAwAAAAAAiAAAgggAAAAACAAQAAAIAAAIAAAAAAAAAA=</HashCode>
+      <FileName>LogoState.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMenuState" Collapsed="true">
+    <Position X="12" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAwAACAAAyAAAgAAAACAAAAAAAAgEEAAKGAAAAAAAAA=</HashCode>
+      <FileName>MenuState.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CResultState" Collapsed="true">
+    <Position X="14.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAgAASAAAgAAAAAAAAAAAACAEAAAIAAAAAAAAAA=</HashCode>
+      <FileName>ResultState.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CShopState" Collapsed="true">
+    <Position X="16.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAwggAAAAiAAEgAAAAAAACBAQAAAABAAIGAAAAAABAA=</HashCode>
+      <FileName>ShopState.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CBarrier" Collapsed="true">
+    <Position X="4" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAEAAgAAABAAAABAAAAAAAABAAACAAAAAAA=</HashCode>
+      <FileName>Barrier.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CBullet" Collapsed="true">
+    <Position X="10.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAIAAAAAAgAAAAAAAABAAAAAAAAAAAACAAAAIAg=</HashCode>
+      <FileName>Bullet.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CHero" Collapsed="true">
+    <Position X="15.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQAAAAAAAAAAgAAAAAAAABAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Hero.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CBoss" Collapsed="true">
+    <Position X="19.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAIAAAAAAAgAEAAAAACBAQAAIAAAAgAACAAAAAAA=</HashCode>
+      <FileName>Boss.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CBossBullet" Collapsed="true">
+    <Position X="24.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQIAAAAAIAAAgAAAAAAAABAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Boss.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTimeClass" Collapsed="true">
+    <Position X="43.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAQhAACADBIBAEQgAAAAAAAAAIAAiwQggDAAhAAAA=</HashCode>
+      <FileName>Class.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CEffect" Collapsed="true">
+    <Position X="31" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAgAAAAAgAAAQAAAAAAAAAEAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Effect.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CItem" Collapsed="true">
+    <Position X="35.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAAAAAAACBAAEAAAAAABAACAQAAAAA=</HashCode>
+      <FileName>Item.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMonster" Collapsed="true">
+    <Position X="6.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAABAAgAAAAAAAABAAAAAAAAAAAACAAIAAAA=</HashCode>
+      <FileName>Monster.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSkill" Collapsed="true">
+    <Position X="13" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAAAAAAAABAAAAAAAAAAAACAIAAAAA=</HashCode>
+      <FileName>Skill.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSkill_1" Collapsed="true">
+    <Position X="17.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQQAgAAAAAAAgAAAAAAACAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Skill.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSkill_2" Collapsed="true">
+    <Position X="22" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQQAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Skill.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CUi" Collapsed="true">
+    <Position X="26.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAwAAAAAAQAQRgAAAQgAACAAQAAAEMBAAGACAQAEAwE=</HashCode>
+      <FileName>Ui.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTerret" Collapsed="true">
+    <Position X="28.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAwACAAAAgAAAgAAAAQAAABAAAAiAAABEAACAAAAAAA=</HashCode>
+      <FileName>Terret.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSubMonster" Collapsed="true">
+    <Position X="33.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAEAAAAAIgAAAAAAAABAAgAAAAAAAgACAAAAAAA=</HashCode>
+      <FileName>SubMonster.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSubBullet" Collapsed="true">
+    <Position X="37.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAAAAAAAABAAAAAAAAAAAASAAAAQAA=</HashCode>
+      <FileName>SubMonster.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CBossSkill" Collapsed="true">
+    <Position X="8.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAUAAAAAAAAgggAAAAAAAABAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BossSkill.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMng" Collapsed="true">
+    <Position X="40.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAQAAQACAAAAQgAAAAAABAAAIAAAIAAAEAAAAAAAQAA=</HashCode>
+      <FileName>Mng.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CState" Collapsed="true">
+    <Position X="9.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAgIAFAAAAAAAAAAAAAAAICAAAAAAAAA=</HashCode>
+      <FileName>State.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CStateCtrl" Collapsed="true">
+    <Position X="42" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAEAAAAAAgAABAQAIAAAQAAAAAAEQAACAAAAACA=</HashCode>
+      <FileName>StateCtrl.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="__unnamed_struct_0002_1" Collapsed="true">
+    <Position X="11.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>E:\야간 프로그래밍\콘솔\콘솔_슈팅게임\2018_06_12_02_State\ConsoleEx3\ConWrap.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0002_2" Collapsed="true">
+    <Position X="7.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>E:\야간 프로그래밍\콘솔\콘솔_슈팅게임\2018_06_12_02_State\ConsoleEx3\ConWrap.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0002_3" Collapsed="true">
+    <Position X="3.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAgAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>E:\야간 프로그래밍\콘솔\콘솔_슈팅게임\2018_06_12_02_State\ConsoleEx3\ConWrap.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0002_4" Collapsed="true">
+    <Position X="11.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgAAAAAAA=</HashCode>
+      <FileName>E:\야간 프로그래밍\콘솔\콘솔_슈팅게임\2018_06_12_02_State\ConsoleEx3\ConWrap.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0006_1" Collapsed="true">
+    <Position X="3.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAABCAAAAQAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>E:\야간 프로그래밍\콘솔\콘솔_슈팅게임\2018_06_12_02_State\ConsoleEx3\SysTimer.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="CONDISPLAY" Collapsed="true">
+    <Position X="13.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>E:\야간 프로그래밍\콘솔\콘솔_슈팅게임\2018_06_12_02_State\ConsoleEx3\ConWrap.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="LPCONDISPLAY" Collapsed="true">
+    <Position X="11.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>E:\야간 프로그래밍\콘솔\콘솔_슈팅게임\2018_06_12_02_State\ConsoleEx3\ConWrap.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="CONBUFFER" Collapsed="true">
+    <Position X="10.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>E:\야간 프로그래밍\콘솔\콘솔_슈팅게임\2018_06_12_02_State\ConsoleEx3\ConWrap.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="LPCONBUFFER" Collapsed="true">
+    <Position X="7.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>E:\야간 프로그래밍\콘솔\콘솔_슈팅게임\2018_06_12_02_State\ConsoleEx3\ConWrap.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="CONINPUT" Collapsed="true">
+    <Position X="0.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>E:\야간 프로그래밍\콘솔\콘솔_슈팅게임\2018_06_12_02_State\ConsoleEx3\ConWrap.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="LPCONINPUT" Collapsed="true">
+    <Position X="3.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>E:\야간 프로그래밍\콘솔\콘솔_슈팅게임\2018_06_12_02_State\ConsoleEx3\ConWrap.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="MOUSEPT" Collapsed="true">
+    <Position X="11.5" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>E:\야간 프로그래밍\콘솔\콘솔_슈팅게임\2018_06_12_02_State\ConsoleEx3\ConWrap.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="CODEPAGE" Collapsed="true">
+    <Position X="17.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>E:\야간 프로그래밍\콘솔\콘솔_슈팅게임\2018_06_12_02_State\ConsoleEx3\ConWrapDefines.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="READMODE" Collapsed="true">
+    <Position X="15.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>E:\야간 프로그래밍\콘솔\콘솔_슈팅게임\2018_06_12_02_State\ConsoleEx3\ConWrapDefines.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="RECMODE" Collapsed="true">
+    <Position X="7.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>E:\야간 프로그래밍\콘솔\콘솔_슈팅게임\2018_06_12_02_State\ConsoleEx3\ConWrapDefines.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="SYSTIMER" Collapsed="true">
+    <Position X="3.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>E:\야간 프로그래밍\콘솔\콘솔_슈팅게임\2018_06_12_02_State\ConsoleEx3\SysTimer.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="MOUSEBUTTON_" Collapsed="true">
+    <Position X="42" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAQAAAAAIAAAAgAAAAAIAABAEAABAAAAAAAAEQA=</HashCode>
+      <FileName>E:\야간 프로그래밍\콘솔\콘솔_슈팅게임\2018_06_12_02_State\ConsoleEx3\ConWrap.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="VIRTUALKEY_" Collapsed="true">
+    <Position X="43.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>PwAAAAAAAADAPwMAAAAAAAAAAAAAAAAAAAAAAMC/w/0=</HashCode>
+      <FileName>E:\야간 프로그래밍\콘솔\콘솔_슈팅게임\2018_06_12_02_State\ConsoleEx3\ConWrap.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_0004_1" Collapsed="true">
+    <Position X="17.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>E:\야간 프로그래밍\콘솔\콘솔_슈팅게임\2018_06_12_02_State\ConsoleEx3\ConWrapDefines.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_0004_2" Collapsed="true">
+    <Position X="15.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>E:\야간 프로그래밍\콘솔\콘솔_슈팅게임\2018_06_12_02_State\ConsoleEx3\ConWrapDefines.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_0004_3" Collapsed="true">
+    <Position X="7.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>E:\야간 프로그래밍\콘솔\콘솔_슈팅게임\2018_06_12_02_State\ConsoleEx3\ConWrapDefines.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_0011_1" Collapsed="true">
+    <Position X="40.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAACAAAAAAAAAAAIAAAAAEAAAAAAAQAAAAAAAACA=</HashCode>
+      <FileName>Define.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_0011_2" Collapsed="true">
+    <Position X="42" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAgAAAAIAACAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Define.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_0011_3" Collapsed="true">
+    <Position X="43.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Define.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_0011_4" Collapsed="true">
+    <Position X="40.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAABwAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Define.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="맑은 고딕" Size="9" />
+</ClassDiagram>
