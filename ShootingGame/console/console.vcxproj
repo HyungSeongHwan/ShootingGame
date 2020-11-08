@@ -89,6 +89,7 @@
     <ClCompile Include="..\ConsoleEx3\SysTimer.cpp" />
     <ClCompile Include="Bullet.cpp" />
     <ClCompile Include="Effect.cpp" />
+    <ClCompile Include="GameMgr.cpp" />
     <ClCompile Include="Hero.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Monster.cpp" />
@@ -100,6 +101,7 @@
     <ClInclude Include="..\ConsoleEx3\SysTimer.h" />
     <ClInclude Include="Bullet.h" />
     <ClInclude Include="Effect.h" />
+    <ClInclude Include="GameMgr.h" />
     <ClInclude Include="Hero.h" />
     <ClInclude Include="Include.h" />
     <ClInclude Include="Monster.h" />

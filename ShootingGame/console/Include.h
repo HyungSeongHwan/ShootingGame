@@ -15,27 +15,19 @@
 #define WIDTH 120
 #define HEIGHT 30
 
-#define BulletSize 5
+#define BulletSize 50
 #define MonsterSize 50
-#define EffectSize 5
+#define EffectSize 10
+#define FXImgSize 3
 
 
-#include "Hero.h"; // 자동으로 위의 헤더파일이 속해짐
-#include "Bullet.h";
-#include "Monster.h";
-#include "Effect.h";
+#include "Hero.h" // 자동으로 위의 헤더파일이 속해짐
+#include "Bullet.h"
+#include "Monster.h"
+#include "Effect.h"
+#include "GameMgr.h"
 
 
-extern stHero g_Hero; // 외부에 있는 변수를 직접 쓸 수 있다 (구조체가 정의된 헤더파일 밑에 쓴다.)
-
-extern stBullet g_ArrBullet[BulletSize];
-extern DWORD dwBulletFureTime;
-
-extern stMonster g_ArrMonster[MonsterSize];
-extern DWORD dwMonsterSpawnDelay;
-extern int g_nScore;
-
-extern stEffect g_ArrEffect[EffectSize];
-extern char g_Effect[3][3][3];
+extern stGameMgr g_GameMgr;
 
 #endif

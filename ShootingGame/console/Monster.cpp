@@ -5,17 +5,17 @@ void Monster_Init()
 {
 	for (int i = 0; i < MonsterSize; i++)
 	{
-		g_ArrMonster[i].x = -1;
-		g_ArrMonster[i].y = 0;
+		g_GameMgr.ArrMonster[i].x = -1;
+		g_GameMgr.ArrMonster[i].y = 0;
 
-		g_ArrMonster[i].hp = 2;
-		g_ArrMonster[i].speed = 0.5;
-		g_ArrMonster[i].damage = 1;
+		g_GameMgr.ArrMonster[i].hp = 2;
+		g_GameMgr.ArrMonster[i].speed = 0.5;
+		g_GameMgr.ArrMonster[i].damage = 1;
 		
-		g_ArrMonster[i].body = '@';
+		g_GameMgr.ArrMonster[i].body = '@';
 
-		g_ArrMonster[i].fColor = RED;
-		g_ArrMonster[i].bColor = BLACK;
+		g_GameMgr.ArrMonster[i].fColor = RED;
+		g_GameMgr.ArrMonster[i].bColor = BLACK;
 	}
 }
 
@@ -31,8 +31,8 @@ void Monster_Draw()
 {
 	for (int i = 0; i < MonsterSize; i++)
 	{
-		if (g_ArrMonster[i].IsActive)
-			DrawCharEx3(g_ArrMonster[i].x, g_ArrMonster[i].y, g_ArrMonster[i].body, g_ArrMonster[i].fColor, g_ArrMonster[i].bColor);
+		if (g_GameMgr.ArrMonster[i].IsActive)
+			DrawCharEx3(g_GameMgr.ArrMonster[i].x, g_GameMgr.ArrMonster[i].y, g_GameMgr.ArrMonster[i].body, g_GameMgr.ArrMonster[i].fColor, g_GameMgr.ArrMonster[i].bColor);
 	}
 		
 }
@@ -41,26 +41,26 @@ void Monster_Move()
 {
 	for (int i = 0; i < MonsterSize; i++)
 	{
-		g_ArrMonster[i].y += g_ArrMonster[i].speed;
+		g_GameMgr.ArrMonster[i].y += g_GameMgr.ArrMonster[i].speed;
 	}
 }
 
 void Monster_Spawn()
 {
-	if (dwMonsterSpawnDelay < GetTickCount()) 
+	if (g_GameMgr.dwMonsterSpawnDelay < GetTickCount())
 	{
-		dwMonsterSpawnDelay = GetTickCount() + 1000;
+		g_GameMgr.dwMonsterSpawnDelay = GetTickCount() + 500;
 
 		for (int i = 0; i < MonsterSize; i++)
 		{
-			if (!g_ArrMonster[i].IsActive)
+			if (!g_GameMgr.ArrMonster[i].IsActive)
 			{
 				int nRandPosX = rand() % WIDTH;
 
-				g_ArrMonster[i].x = nRandPosX;
-				g_ArrMonster[i].y = 0;
-
-				g_ArrMonster[i].IsActive = true;
+				g_GameMgr.ArrMonster[i].x = nRandPosX;
+				g_GameMgr.ArrMonster[i].y = 0;
+				
+				g_GameMgr.ArrMonster[i].IsActive = true;
 
 				break;
 			}
@@ -72,8 +72,8 @@ void Monster_LockUp()
 {
 	for (int i = 0; i < MonsterSize; i++)
 	{
-		if (g_ArrMonster[i].y > HEIGHT)
-			g_ArrMonster[i].IsActive = false;
+		if (g_GameMgr.ArrMonster[i].y > HEIGHT)
+			g_GameMgr.ArrMonster[i].IsActive = false;
 	}
 }
 
@@ -81,17 +81,17 @@ void Monster_TriggerBullet()
 {
 	for (int i = 0; i < MonsterSize; i++)
 	{
-		if (g_ArrMonster[i].IsActive)
+		if (g_GameMgr.ArrMonster[i].IsActive)
 		{
 			for (int j = 0; j < BulletSize; j++)
 			{
-				if (g_ArrBullet[j].IsActive)
+				if (g_GameMgr.ArrBullet[j].IsActive)
 				{
-					if (g_ArrMonster[i].y >= g_ArrBullet[j].y && g_ArrMonster[i].x == g_ArrBullet[j].x)
+					if (g_GameMgr.ArrMonster[i].y >= g_GameMgr.ArrBullet[j].y && g_GameMgr.ArrMonster[i].x == g_GameMgr.ArrBullet[j].x)
 					{
-						Effect_Init(g_ArrMonster[i].x, g_ArrMonster[i].y);
-						g_ArrMonster[i].y = 31;
-						++g_nScore;
+						Effect_Create(g_GameMgr.ArrMonster[i].x, g_GameMgr.ArrMonster[i].y);
+						g_GameMgr.ArrMonster[i].y = HEIGHT + 1;
+						++g_GameMgr.nScore;
 					}
 
 				}

@@ -19,6 +19,9 @@
     <Filter Include="Game\Effect">
       <UniqueIdentifier>{594dee85-8763-4c52-a2fe-d97f77686e81}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Game\Mgr">
+      <UniqueIdentifier>{de5fa279-749c-4697-9969-dcab619389b8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\ConsoleEx3\ConWrap.cpp">
@@ -39,6 +42,9 @@
     </ClCompile>
     <ClCompile Include="Effect.cpp">
       <Filter>Game\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMgr.cpp">
+      <Filter>Game\Mgr</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -66,6 +72,9 @@
     </ClInclude>
     <ClInclude Include="Effect.h">
       <Filter>Game\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMgr.h">
+      <Filter>Game\Mgr</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

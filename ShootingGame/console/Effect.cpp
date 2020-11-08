@@ -1,18 +1,18 @@
 #include "Include.h"
 
-void Effect_Init(int MonPosX, int MonPosY)
+void Effect_Init()
  {
 	for (int i = 0; i < EffectSize; i++)
 	{
-		g_ArrEffect[i].x = MonPosX;
-		g_ArrEffect[i].y = MonPosY;
+		g_GameMgr.ArrEffect[i].x = -1000;
+		g_GameMgr.ArrEffect[i].y = -1000;
 
-		g_ArrEffect[i].time = GetTickCount() + 300;
-		g_ArrEffect[i].idx = 0;
+		g_GameMgr.ArrEffect[i].nIdx = 0;
 
-		g_ArrEffect[i].fColor = WHITE;
-		g_ArrEffect[i].bColor = BLACK;
-		g_ArrEffect[i].IsActive = true;
+		g_GameMgr.ArrEffect[i].fColor = WHITE;
+		g_GameMgr.ArrEffect[i].bColor = BLACK;
+
+		g_GameMgr.ArrEffect[i].IsActive = false;
 	}
 }
 
@@ -25,14 +25,14 @@ void Effect_Draw()
 {
 	for (int i = 0; i < EffectSize; i++)
 	{
-		if (g_ArrEffect[i].IsActive)
+		if (g_GameMgr.ArrEffect[i].IsActive)
 		{
-			for (int j = 0; j < 3; j++)
+			for (int j = 0; j < FXImgSize; j++)
 			{
-				for (int k = 0; k < 3; k++)
+				for (int k = 0; k < FXImgSize; k++)
 				{
-					DrawCharEx3(g_ArrEffect[i].x + k, g_ArrEffect[i].y + j,
-						g_Effect[g_ArrEffect[i].idx][j][k], g_ArrEffect[i].fColor, g_ArrEffect[i].bColor);
+					DrawCharEx3(g_GameMgr.ArrEffect[i].x + k - 1, g_GameMgr.ArrEffect[i].y + j - 1,
+						g_GameMgr.MonPopEffect[g_GameMgr.ArrEffect[i].nIdx][j][k], g_GameMgr.ArrEffect[i].fColor, g_GameMgr.ArrEffect[i].bColor);
 				}
 			}
 		}
@@ -43,16 +43,36 @@ void Effect_Animation()
 {
 	for (int i = 0; i < EffectSize; i++)
 	{
-		for (int j = 0; j < 3; j++)
+		for (int j = 0; j < FXImgSize; j++)
 		{
-			if (g_ArrEffect[i].IsActive && g_ArrEffect[i].time < GetTickCount())
+			if (g_GameMgr.ArrEffect[i].IsActive && g_GameMgr.ArrEffect[i].animDelayTime < GetTickCount())
 			{
-				g_ArrEffect[i].time = GetTickCount() + 300;
-				g_ArrEffect[i].idx++;
+				g_GameMgr.ArrEffect[i].animDelayTime = GetTickCount() + 300;
+				g_GameMgr.ArrEffect[i].nIdx++;
 
-				if (g_ArrEffect[i].idx > 2)
-					g_ArrEffect[i].IsActive = false;
+				if (g_GameMgr.ArrEffect[i].nIdx > FXImgSize - 1)
+					g_GameMgr.ArrEffect[i].IsActive = false;
+					
 			}
+		}
+	}
+}
+
+void Effect_Create(int MonPosX, int MonPosY)
+{
+	for (int i = 0; i < EffectSize; i++)
+	{
+		if (!g_GameMgr.ArrEffect[i].IsActive)
+		{
+			g_GameMgr.ArrEffect[i].x = MonPosX;
+			g_GameMgr.ArrEffect[i].y = MonPosY;
+
+			g_GameMgr.ArrEffect[i].nIdx = 0;
+			g_GameMgr.ArrEffect[i].animDelayTime = GetTickCount() + 300;
+
+			g_GameMgr.ArrEffect[i].IsActive = true;
+
+			break;
 		}
 	}
 }
